@@ -22,7 +22,7 @@ export default function PensiuneaDanila() {
   return (
     <div className="bg-neutral-950 text-white font-sans">
       {/* HERO */}
-      <section className="h-screen flex flex-col justify-center items-center text-center px-6 bg-[url('https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1291444536321015')] bg-cover bg-center relative">
+      <section className="h-screen flex flex-col justify-center items-center text-center px-6 bg-[url('https://www.romaniatonight.ro/sites/default/files/styles/slider_carousel/public/hotels/hotels/agropensiunea-danila-poiana-ilvei-01.jpg')] bg-cover bg-center relative">
         <div className="absolute inset-0 bg-black/40" />
         <div className="bg-black/60 p-10 rounded-2xl relative z-10 backdrop-blur-sm border border-white/10">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">Agropensiunea Dănilă</h1>
