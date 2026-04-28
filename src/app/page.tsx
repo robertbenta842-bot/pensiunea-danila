@@ -23,11 +23,11 @@ export default function PensiuneaDanila() {
   return (
     <div className="bg-neutral-950 text-white font-sans">
       {/* HERO */}
-      <section className="h-screen flex flex-col justify-center items-center text-center px-6 bg-[url('https://frankfurt.apollo.olxcdn.com/v1/files/5txpxsx82mut2-RO/image;s=1000x700')] bg-cover bg-center relative">
+      <section className="h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('https://frankfurt.apollo.olxcdn.com/v1/files/5txpxsx82mut2-RO/image;s=1000x700')] bg-cover bg-[center_top] md:bg-center relative">
         <div className="absolute inset-0 bg-black/40" />
-        <div className="bg-black/60 p-10 rounded-2xl relative z-10 backdrop-blur-sm border border-white/10">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">Agropensiunea Dănilă</h1>
-          <p className="text-xl md:text-2xl mb-8">Aici unde cerul sărută pământul în Poiana Ilvei</p>
+        <div className="bg-black/60 p-6 md:p-10 rounded-2xl relative z-10 backdrop-blur-sm border border-white/10 max-w-lg md:max-w-none">
+          <h1 className="text-4xl md:text-7xl font-bold mb-6">Agropensiunea Dănilă</h1>
+          <p className="text-lg md:text-2xl mb-8">Aici unde cerul sărută pământul în Poiana Ilvei</p>
           <Link href="https://www.romaniatonight.ro/cazare-transilvania/bistrita-nasaud/agropensiunea-danila-poiana-ilvei" target="_blank">
             <Button className="text-lg px-8 py-6 rounded-2xl bg-white text-black hover:bg-neutral-200">Rezervă acum</Button>
           </Link>
