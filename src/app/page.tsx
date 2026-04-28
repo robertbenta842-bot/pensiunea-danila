@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 
 export default function PensiuneaDanila() {
   const galleryImages = [
@@ -27,11 +26,14 @@ export default function PensiuneaDanila() {
         <div className="bg-black/60 p-6 md:p-10 rounded-2xl relative z-10 backdrop-blur-sm border border-white/10 max-w-lg md:max-w-none">
           <h1 className="text-4xl md:text-7xl font-bold mb-6">Agropensiunea Dănilă</h1>
           <p className="text-lg md:text-2xl mb-8">Aici unde cerul sărută pământul în Poiana Ilvei</p>
-          <Button asChild className="text-lg px-8 py-6 rounded-2xl bg-white text-black hover:bg-neutral-200">
-            <a href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83." target="_blank" rel="noopener noreferrer">
-              Rezervă acum
-            </a>
-          </Button>
+          <a
+            href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-lg px-8 py-6 rounded-2xl bg-white text-black hover:bg-neutral-200 cursor-pointer active:scale-95 inline-block"
+          >
+            Rezervă acum
+          </a>
         </div>
       </section>
 
@@ -143,11 +145,14 @@ export default function PensiuneaDanila() {
       <section className="py-32 text-center px-6 bg-gradient-to-b from-neutral-900 to-neutral-950">
         <h2 className="text-4xl md:text-5xl font-bold mb-8">Ești pregătit pentru relaxare totală?</h2>
         <p className="text-xl mb-12 text-neutral-400 max-w-2xl mx-auto">Te așteptăm la Agropensiunea Dănilă să descoperi farmecul Transilvaniei autentice.</p>
-        <Button asChild className="text-xl px-12 py-8 rounded-3xl bg-white text-black hover:bg-neutral-200 shadow-xl transition-all hover:scale-105 active:scale-95 font-bold">
-          <a href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83." target="_blank" rel="noopener noreferrer">
+        <a
+            href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xl px-12 py-8 rounded-3xl bg-white text-black hover:bg-neutral-200 cursor-pointer active:scale-95 shadow-xl transition-all hover:scale-105 font-bold inline-block"
+          >
             Rezervă acum
           </a>
-        </Button>
       </section>
 
       {/* FOOTER */}
