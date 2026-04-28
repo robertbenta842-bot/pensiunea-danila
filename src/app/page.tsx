@@ -27,7 +27,7 @@ export default function PensiuneaDanila() {
           <h1 className="text-4xl md:text-7xl font-bold mb-6">Agropensiunea Dănilă</h1>
           <p className="text-lg md:text-2xl mb-8">Aici unde cerul sărută pământul în Poiana Ilvei</p>
           <a
-            href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83."
+            href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83.%20%C3%8Emi%20pute%C8%9Bi%20trimite%20ni%C8%99te%20detalii%20cu%20datele%20disponibile%20%C8%99i%20pre%C8%9Burile%20ata%C8%99ate?"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-lg px-8 py-6 rounded-2xl bg-white text-black hover:bg-neutral-200 cursor-pointer active:scale-95 transition-transform"
@@ -146,7 +146,7 @@ export default function PensiuneaDanila() {
         <h2 className="text-4xl md:text-5xl font-bold mb-8">Ești pregătit pentru relaxare totală?</h2>
         <p className="text-xl mb-12 text-neutral-400 max-w-2xl mx-auto">Te așteptăm la Agropensiunea Dănilă să descoperi farmecul Transilvaniei autentice.</p>
         <a
-          href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83."
+          href="https://wa.me/40744400770?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20fac%20o%20rezervare%20la%20Agropensiunea%20D%C4%83nil%C4%83.%20%C3%8Emi%20pute%C8%9Bi%20trimite%20ni%C8%99te%20detalii%20cu%20datele%20disponibile%20%C8%99i%20pre%C8%9Burile%20ata%C8%99ate?"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block text-xl px-12 py-8 rounded-3xl bg-white text-black hover:bg-neutral-200 cursor-pointer active:scale-95 shadow-xl transition-transform hover:scale-105 font-bold"
