@@ -22,7 +22,7 @@ export default function PensiuneaDanila() {
   return (
     <div className="bg-neutral-950 text-white font-sans">
       {/* HERO */}
-      <section className="h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('https://frankfurt.apollo.olxcdn.com/v1/files/5txpxsx82mut2-RO/image;s=1000x700')] bg-cover bg-[center_top] md:bg-center relative">
+      <section className="h-[100dvh] flex flex-col justify-center items-center text-center px-4 bg-[url('https://frankfurt.apollo.olxcdn.com/v1/files/5txpxsx82mut2-RO/image;s=1000x700')] bg-cover bg-[center_top] md:bg-center relative">
         <div className="absolute inset-0 bg-black/40" />
         <div className="bg-black/60 p-6 md:p-10 rounded-2xl relative z-10 backdrop-blur-sm border border-white/10 max-w-lg md:max-w-none">
           <h1 className="text-4xl md:text-7xl font-bold mb-6">Agropensiunea Dănilă</h1>
@@ -40,7 +40,7 @@ export default function PensiuneaDanila() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: [0, 8, 0] }}
           transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center text-white/80"
+          className="absolute bottom-20 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center text-white/80"
         >
           <span className="text-sm mb-2">Glisează în jos</span>
           <ChevronDown className="w-6 h-6" />
