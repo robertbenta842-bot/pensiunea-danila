@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pensiunea Dănilă",
+  title: "Agropensiunea Dănilă",
   description: "Un colț de rai în Poiana Ilvei",
 };
 
