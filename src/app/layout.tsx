@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Agropensiunea Dănilă",
   description: "Un colț de rai în Poiana Ilvei",
 icons: {
-    icon: '/icon.png',
+    icon: '/logo.png',
   },
 }
 
