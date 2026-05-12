@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pensiunea Dănilă",
-  description: "Agropensiunea Dănilă",
+  description: "Pensiunea Dănilă",
 };
 
 export default function RootLayout({
