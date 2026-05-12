@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pensiunea Dănilă",
-  description: "Pensiunea Dănilă",
+  description: "Un colț de rai în Poiana Ilvei",
 };
 
 export default function RootLayout({
