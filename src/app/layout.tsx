@@ -43,3 +43,17 @@ export default function RootLayout({
     </html>
   );
 }
+// app/layout.tsx
+
+export const metadata = {
+  title: 'Pensiune Poiana Ilvei - Cazare în Munții Bistriței',
+  description: 'Pensiune în Poiana Ilvei. Cazare confortabilă cu priveliște la munte, mic dejun inclus și activități în natură.',
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="ro">
+      <body>{children}</body>
+    </html>
+  )
+}
