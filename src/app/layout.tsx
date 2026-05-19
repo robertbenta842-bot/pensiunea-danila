@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Agropensiunea Dănilă",
-  description: "Cazare în Poiana Ilvei; Drumetii; Gratare; Baby shower; Nunta; Dormit Poiana Ilvei; Pensiunea Dănilă; Pensiune Poiana Ilvei; Foișor; Pensiune Poiana Ilvei",
+  description: "Cazare în Poiana Ilvei. Pensiune Poiana Ilvei. Drumeții, grătare, nunți, evenimente.",
   icons: {
     icon: '/logo.png',
   },
@@ -33,3 +33,4 @@ export default function RootLayout({
     </html>
   );
 }
+
