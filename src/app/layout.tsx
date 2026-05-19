@@ -13,11 +13,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata: export const metadata: Metadata = {
   title: "Agropensiunea Dănilă",
   description: "Un colț de rai în Poiana Ilvei",
-icons: {
+  icons: {
     icon: '/logo.png',
+  },
+  openGraph: {
+    title: "Agropensiunea Dănilă",
+    description: "Un colț de rai în Poiana Ilvei",
+    images: ['/og-image.jpg'],
   },
 }
 
