@@ -19,11 +19,6 @@ export const metadata: Metadata = {
   icons: {
     icon: '/logo.png',
   },
-  openGraph: {
-    title: "Agropensiunea Dănilă",
-    description: "Un colț de rai în Poiana Ilvei",
-    images: ['/og-image.jpg'],
-  },
 }
 
 export default function RootLayout({
